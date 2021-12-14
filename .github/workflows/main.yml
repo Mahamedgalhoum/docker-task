@@ -1,3 +1,4 @@
+# This is a basic workflow to help you get started with Actions
 name: Docker Image CI
 
 on:
@@ -19,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: 1312000/java-Mohamed-from-github-actions:latest
+          tags: 1312000/myimage-github-actions:latest
